@@ -1,15 +1,13 @@
 {
-    "featuresDirectoryPath": "D:\\TestMarketplace\\Features",
-    "viewsDirectoryPath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\Views",
-    "assetsDirectoryPath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\Assets\\Feature",
-    "dllsDirectoryPath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\bin",
-    "configurationsDirectoryPath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\App_Config\\Include\\Feature",
-    "features": [
-      "Blogs",
-      "Michelin-Food-main",
-      "Movies",
-      "News",
-      "Promotions"
-    ]
-  }
-  
+  "configFilePath": "D:\\MarketplaceTestRepo\\featuresConfig.json",
+  "featuresDirectoryPath": "D:\\MarketplaceTestRepo\\Features",
+  "viewsDirectoryPath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\Views",
+  "assetsBasePath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\Assets\\Feature",
+  "dllsBasePath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\bin",
+  "configurationsBasePath": "C:\\inetpub\\wwwroot\\sc104sc.dev.local\\App_Config\\Include\\Feature",
+  "features": [
+    "Blogs",
+    "News",
+    "Promotions"
+  ]
+}
