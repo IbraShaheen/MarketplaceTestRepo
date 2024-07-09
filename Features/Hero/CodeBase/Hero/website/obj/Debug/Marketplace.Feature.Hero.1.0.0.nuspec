@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Marketplace.Feature.Hero</id>
+    <version>1.0.0</version>
+    <authors>Neil Shack</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Marketplace.Foundation.Content" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Marketplace.Foundation.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Marketplace.Foundation.DI" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Marketplace.Foundation.Logging" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Marketplace.Foundation.ORM" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Marketplace.Foundation.Search" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Glass.Mapper.Sc.103.Core" version="5.8.181" exclude="Build,Analyzers" />
+        <dependency id="Glass.Mapper.Sc.103.Mvc" version="5.8.181" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNet.Mvc" version="5.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Sitecore.ContentSearch.Linq" version="10.4.0" exclude="Build,Analyzers" />
+        <dependency id="Sitecore.Kernel" version="10.4.0" exclude="Build,Analyzers" />
+        <dependency id="Sitecore.Mvc" version="10.4.0" exclude="Build,Analyzers" />
+        <dependency id="Sitecore.Mvc.Analytics" version="10.4.0" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.IO" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Runtime.InteropServices.RuntimeInformation" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Algorithms" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Encoding" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Primitives" targetFramework=".NETFramework4.8" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net48/App_Config/Include/Feature/Feature.Hero.Mvc.config" buildAction="Content" />
+      <files include="any/net48/App_Config/Include/Feature/Feature.Hero.RegisterContainer.config" buildAction="Content" />
+      <files include="any/net48/App_Config/Include/Feature/Feature.Hero.RegisterMappings.config" buildAction="Content" />
+      <files include="any/net48/App_Config/Include/Feature/Feature.Hero.Routes.config" buildAction="Content" />
+      <files include="any/net48/Views/Hero/Hero.cshtml" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\bin\Debug\net48\Marketplace.Feature.Hero.dll" target="lib\net48\Marketplace.Feature.Hero.dll" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.Mvc.config" target="content\App_Config\Include\Feature\Feature.Hero.Mvc.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.Mvc.config" target="contentFiles\any\net48\App_Config\Include\Feature\Feature.Hero.Mvc.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.RegisterContainer.config" target="content\App_Config\Include\Feature\Feature.Hero.RegisterContainer.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.RegisterContainer.config" target="contentFiles\any\net48\App_Config\Include\Feature\Feature.Hero.RegisterContainer.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.RegisterMappings.config" target="content\App_Config\Include\Feature\Feature.Hero.RegisterMappings.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.RegisterMappings.config" target="contentFiles\any\net48\App_Config\Include\Feature\Feature.Hero.RegisterMappings.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.Routes.config" target="content\App_Config\Include\Feature\Feature.Hero.Routes.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\App_Config\Include\Feature\Feature.Hero.Routes.config" target="contentFiles\any\net48\App_Config\Include\Feature\Feature.Hero.Routes.config" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\Views\Hero\Hero.cshtml" target="content\Views\Hero\Hero.cshtml" />
+    <file src="D:\Projects\SC - Marketplace\src\Feature\Hero\website\Views\Hero\Hero.cshtml" target="contentFiles\any\net48\Views\Hero\Hero.cshtml" />
+  </files>
+</package>

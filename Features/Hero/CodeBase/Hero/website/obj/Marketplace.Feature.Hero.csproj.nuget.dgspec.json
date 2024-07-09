@@ -1,0 +1,694 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\SC - Marketplace\\src\\Feature\\Hero\\website\\Marketplace.Feature.Hero.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\SC - Marketplace\\src\\Feature\\Hero\\website\\Marketplace.Feature.Hero.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Feature\\Hero\\website\\Marketplace.Feature.Hero.csproj",
+        "projectName": "Marketplace.Feature.Hero",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Feature\\Hero\\website\\Marketplace.Feature.Hero.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Feature\\Hero\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Content\\website\\Marketplace.Foundation.Content.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Content\\website\\Marketplace.Foundation.Content.csproj"
+              },
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj"
+              },
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\DI\\website\\Marketplace.Foundation.DI.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\DI\\website\\Marketplace.Foundation.DI.csproj"
+              },
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Logging\\website\\Marketplace.Foundation.Logging.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Logging\\website\\Marketplace.Foundation.Logging.csproj"
+              },
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\ORM\\website\\Marketplace.Foundation.ORM.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\ORM\\website\\Marketplace.Foundation.ORM.csproj"
+              },
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Search\\website\\Marketplace.Foundation.Search.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Search\\website\\Marketplace.Foundation.Search.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Glass.Mapper.Sc.103.Core": {
+              "target": "Package",
+              "version": "[5.8.181, )",
+              "versionCentrallyManaged": true
+            },
+            "Glass.Mapper.Sc.103.Mvc": {
+              "target": "Package",
+              "version": "[5.8.181, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "RazorGenerator.MsBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.ContentSearch.Linq": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Mvc": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Mvc.Analytics": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Content\\website\\Marketplace.Foundation.Content.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Content\\website\\Marketplace.Foundation.Content.csproj",
+        "projectName": "Marketplace.Foundation.Content",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Content\\website\\Marketplace.Foundation.Content.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Content\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Glass.Mapper.Sc.103.Core": {
+              "target": "Package",
+              "version": "[5.8.181, )",
+              "versionCentrallyManaged": true
+            },
+            "Glass.Mapper.Sc.103.Mvc": {
+              "target": "Package",
+              "version": "[5.8.181, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.ContentSearch": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj",
+        "projectName": "Marketplace.Foundation.Core",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\SC - Marketplace\\src\\Foundation\\DI\\website\\Marketplace.Foundation.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\DI\\website\\Marketplace.Foundation.DI.csproj",
+        "projectName": "Marketplace.Foundation.DI",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\DI\\website\\Marketplace.Foundation.DI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\DI\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Mvc": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Logging\\website\\Marketplace.Foundation.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Logging\\website\\Marketplace.Foundation.Logging.csproj",
+        "projectName": "Marketplace.Foundation.Logging",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Logging\\website\\Marketplace.Foundation.Logging.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Logging\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\SC - Marketplace\\src\\Foundation\\ORM\\website\\Marketplace.Foundation.ORM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\ORM\\website\\Marketplace.Foundation.ORM.csproj",
+        "projectName": "Marketplace.Foundation.ORM",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\ORM\\website\\Marketplace.Foundation.ORM.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\ORM\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj": {
+                "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Core\\website\\Marketplace.Foundation.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Glass.Mapper.Sc.103": {
+              "target": "Package",
+              "version": "[5.8.181, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Search\\website\\Marketplace.Foundation.Search.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Search\\website\\Marketplace.Foundation.Search.csproj",
+        "projectName": "Marketplace.Foundation.Search",
+        "projectPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Search\\website\\Marketplace.Foundation.Search.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SC - Marketplace\\src\\Foundation\\Search\\website\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "D:\\Projects\\SC - Marketplace\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.ContentSearch": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.4.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoFixture": "3.51.0",
+            "FluentAssertions": "4.19.4",
+            "Glass.Mapper.Sc.103": "5.8.181",
+            "Glass.Mapper.Sc.103.Core": "5.8.181",
+            "Glass.Mapper.Sc.103.Mvc": "5.8.181",
+            "Microsoft.AspNet.Mvc": "5.3.0",
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "2.0.1",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "MSTest.TestAdapter": "1.2.0",
+            "MSTest.TestFramework": "1.2.0",
+            "NSubstitute": "2.0.3",
+            "RazorGenerator.MsBuild": "2.5.0",
+            "RichardSzalay.Helix.Publishing.WebRoot": "1.5.6",
+            "Sitecore.Assemblies.Platform": "10.4.0",
+            "Sitecore.ContentSearch": "10.4.0",
+            "Sitecore.ContentSearch.Linq": "10.4.0",
+            "Sitecore.Kernel": "10.4.0",
+            "Sitecore.Mvc": "10.4.0",
+            "Sitecore.Mvc.Analytics": "10.4.0",
+            "System.ComponentModel.Annotations": "4.7.0"
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ARBDigitalLab.Feature.Hero.Tests
+build_property.ProjectDir = D:\Projects\SC - Marketplace\src\Feature\Hero\tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

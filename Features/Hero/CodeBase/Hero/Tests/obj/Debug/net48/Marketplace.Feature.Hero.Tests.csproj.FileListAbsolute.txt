@@ -1,0 +1,5 @@
+D:\Projects\SC - Marketplace\src\Feature\Hero\tests\obj\Debug\net48\Marketplace.Feature.Hero.Tests.csproj.AssemblyReference.cache
+D:\Projects\SC - Marketplace\src\Feature\Hero\tests\obj\Debug\net48\Marketplace.Feature.Hero.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SC - Marketplace\src\Feature\Hero\tests\obj\Debug\net48\Marketplace.Feature.Hero.Tests.AssemblyInfoInputs.cache
+D:\Projects\SC - Marketplace\src\Feature\Hero\tests\obj\Debug\net48\Marketplace.Feature.Hero.Tests.AssemblyInfo.cs
+D:\Projects\SC - Marketplace\src\Feature\Hero\tests\obj\Debug\net48\Marketplace.Feature.Hero.Tests.csproj.CoreCompileInputs.cache
